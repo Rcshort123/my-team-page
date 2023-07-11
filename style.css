@@ -1,0 +1,63 @@
+body {
+width: 1440px;
+height: 1489px;
+flex-shrink: 0;
+}
+
+header h1 {
+    color: #000;
+font-family: PT Serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.62px;
+}
+
+header h2 {
+    color: #000;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+}
+
+header p {
+    display: flex;
+width: 439px;
+height: 87px;
+flex-direction: column;
+flex-shrink: 0;
+color: #000;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+#team-pictures {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    column-gap: 7rem;
+    row-gap: 10rem;
+    margin: 2% 5%;
+}
+
+#profiles {
+    background: #000 1px solid;
+    width: 33%;
+}
+
+#profiles-drop {
+    margin-top: 100px;
+}
+
+img {
+    width: 250px;
+    height: 360px;
+    
+}
